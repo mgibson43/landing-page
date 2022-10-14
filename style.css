@@ -73,10 +73,49 @@ body {
   width: 100px;
   padding: 6px 24px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .header-img {
   width: 500px;
   height: auto;
   display: block;
+}
+
+.info {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #1F2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 190px;
+}
+
+.card-img {
+  width: 180px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-txt {
+  text-align: center;
+  color: #555;
 }
