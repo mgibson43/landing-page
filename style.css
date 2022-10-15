@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .container {
@@ -36,7 +37,7 @@ body {
 .link:visited {
   color: #E5E7EB;
   text-decoration: none;
-  font-size: 18px;;
+  font-size: 18px;
 }
 
 .link:hover,
@@ -83,7 +84,7 @@ body {
 }
 
 .info {
-  padding: 30px;
+  padding: 100px;
   margin-bottom: 30px;
 }
 
@@ -118,4 +119,64 @@ body {
 .card-txt {
   text-align: center;
   color: #555;
+}
+
+.inspiration {
+  padding: 150px;
+  background-color: #E5E7EB;
+}
+
+.inspiration-content {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.inspiration-txt {
+  text-align: left;
+  margin-bottom: -26px;
+}
+
+.inspiration-author {
+  text-align: right;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.cta {
+  margin: 75px;
+}
+
+.cta-content {
+  padding: 25px 150px;
+  width: 900px;
+  height: auto;
+  background-color:#3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F9FAF8;
+}
+
+.cta-btn {
+  border: solid 2px #F9FAF8;
+  border-radius: 8px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 4px 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+footer {
+  background-color:#1F2937;
+  padding: 36px;
+}
+
+.footer-content {
+  color: #F9FAF8;
+  text-align: center;
 }
